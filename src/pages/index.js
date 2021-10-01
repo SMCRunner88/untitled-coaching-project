@@ -1,5 +1,6 @@
 import * as React from "react"
 
+require('dotenv').config()
 // styles
 const pageStyles = {
   color: "#232129",
