@@ -8,7 +8,8 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "setup": "node ./bin/setup.js",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -17,6 +18,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "contentful-import": "^8.2.15",
     "dotenv": "^10.0.0",
     "gatsby": "^3.12.1",
     "gatsby-plugin-mdx": "^2.12.0",
